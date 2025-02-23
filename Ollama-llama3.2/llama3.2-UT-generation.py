@@ -1,3 +1,6 @@
+# This code when run with ollama running locally, generates test_file.py in generatedFiles.
+# And it tests the generated code using python environment locally
+
 from ollama import chat
 from ollama import ChatResponse
 # from langchain.code_parsers import PythonCodeExtractorParser
