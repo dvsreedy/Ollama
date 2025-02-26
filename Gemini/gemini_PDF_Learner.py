@@ -37,7 +37,7 @@ def ask_gemini_with_document(document_path, question):
         return None
 
 # Example Usage:
-document_path = 'C:/Users/sreekar/Downloads/runbook.pdf'  # Replace with your PDF file path
+document_path = 'PATH_TO_YOUR_DOC'  # Replace with your PDF file path
 
 while True:
     question = input("Enter your question (or type 'exit' to quit): ")

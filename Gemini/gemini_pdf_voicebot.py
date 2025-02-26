@@ -67,7 +67,7 @@ def chat_with_document(document_path):
         print(f"An error occurred: {e}")
 
 # Example Usage:
-document_path = 'C:/Users/sreekar/Downloads/runbook.pdf'  # Replace with your PDF file path
+document_path = 'PATH_TO_YOUR_DOC'  # Replace with your PDF file path
 chat_with_document(document_path)
 
 print("Goodbye!")
