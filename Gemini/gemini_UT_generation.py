@@ -2,7 +2,7 @@
 import google.generativeai as genai
 # Used to securely store your API key
 
-GOOGLE_API_KEY='AIzaSyA8Dsecwk_Gt9KS5u4hk9hnw7gx-OoKIHE'
+GOOGLE_API_KEY='YOUR_API_KEY'
 # genai.configure(api_key=GOOGLE_API_KEY)
 # model = genai.GenerativeModel('gemini-pro')
 # response = model.generate_content("Write a story about a magic backpack.")

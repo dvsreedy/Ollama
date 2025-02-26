@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 
 # Configure your API key
-genai.configure(api_key="AIzaSyA8Dsecwk_Gt9KS5u4hk9hnw7gx-OoKIHE")  # Replace with your actual API key.
+genai.configure(api_key="YOUR_API_KEY")  # Replace with your actual API key.
 
 def chat_with_document(document_path):
     """

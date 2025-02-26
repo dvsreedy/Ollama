@@ -3,7 +3,7 @@ import speech_recognition as sr
 import pyttsx3
 
 # Configure your API key
-genai.configure(api_key="AIzaSyA8Dsecwk_Gt9KS5u4hk9hnw7gx-OoKIHE") # Replace with your API key
+genai.configure(api_key="YOUR_API_KEY") # Replace with your API key
 
 def get_audio():
     """Captures audio from the microphone and returns text."""
