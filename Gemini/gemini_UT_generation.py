@@ -2,7 +2,7 @@
 import google.generativeai as genai
 # Used to securely store your API key
 
-GOOGLE_API_KEY='ADD-YOUR-API'
+GOOGLE_API_KEY='AIzaSyA8Dsecwk_Gt9KS5u4hk9hnw7gx-OoKIHE'
 # genai.configure(api_key=GOOGLE_API_KEY)
 # model = genai.GenerativeModel('gemini-pro')
 # response = model.generate_content("Write a story about a magic backpack.")
@@ -45,7 +45,7 @@ def generate_unit_tests(code_filepath):
         Here are the function signatures for reference:
         {function_signatures}
 
-        Return the unit test code only (no explanations) which can be run directly.  Do not include the original code.
+        Return the unit test code only (no explanations) which can be run without modifications.  Do not include the original code.
         """
 
         model = genai.GenerativeModel('gemini-pro')  # Or a suitable model
